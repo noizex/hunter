@@ -19,6 +19,17 @@ hunter_add_version(
     0323f68eb7d7c76d88c8d3193995bdf4cfff7f62
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    AngelScript
+    VERSION
+    2.33.0
+    URL
+    "https://github.com/noizex/AngelScript/archive/hunter-2.33.0.tar.gz"
+    SHA1
+    cb0b6a1abf3eb23f5545d743b6f8d00cc5ffd297
+)
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(AngelScript)
 hunter_download(PACKAGE_NAME AngelScript)
